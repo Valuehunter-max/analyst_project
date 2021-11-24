@@ -105,7 +105,7 @@ def detect_anomaly(data, metric, metric_name_rus):
 выше среднего за последние 10 дней на: {:.2%}
 текущее значение метрики: {:.2f}
 среднее значение за последние 14 дней: {:.2f}
-ссылка на дашборд: https://superset.lab.karpov.courses/superset/dashboard/15/
+ссылка на дашборд: https://yandex.ru
 '''.format(metric_name_rus,
            max_time,
            anomaly_differnce,
@@ -122,7 +122,7 @@ def detect_anomaly(data, metric, metric_name_rus):
 ниже  среднего за последние 14 дней на: {:.2%}
 текущее значение метрики: {:.2f}
 среднее значение за последние 10 дней: {:.2f}
-ссылка на дашборд: https://superset.lab.karpov.courses/superset/dashboard/15/
+ссылка на дашборд: https://yandex.ru
 '''.format(metric_name_rus,
            max_time,
            anomaly_differnce,
